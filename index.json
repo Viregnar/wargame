@@ -1,124 +1,18 @@
 {
     "gameTypes": {"battle": {"name": "Battle"}, "skirmish": {"name": "Skirmish"}, "racers": {"name": "Racing"}},
     "categories": {"historical": {"name": "Historical"}, "sci_fi": {"name": "Sci-fi"}, "fantasy": {"name": "Fantasy"}},
-    "reportUrl": "https://github.com/wargame-engine/root/issues",
+    "reportUrl": "https://github.com/Viregnar/wargame/issues",
     "games": {
-        "stellar_frontiers_skirmish": {
-            "id": "stellar_frontiers_skirmish",
-            "gameType": "skirmish",
-            "category": "sci_fi",
-            "version": "1.0",
-            "name": "Stellar Frontiers Skirmishes",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/grimdark.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/grim-darkness-skirmish/master/",
-            "description": "In the far flung future, mankind has expanded into the stars, to be met with a war-ravaged battlefield.  Alien races fight for supremacy, impossible gods send forth impossible legions, and no corner is safe.  Realizing that the only way to survive was through bloodshed, the leaders of man created great war-divisions to help beat back the alien hordes.  But, will mankind be the victor, or just another player in this galactic game? Take part in small skirmish battles to control vital resources as part of a galactic campaign.",
-            "color": "#7761ab"
-        },
         "stellar_frontiers": {
             "id": "stellar_frontiers",
             "gameType": "battle",
             "category": "sci_fi",
             "version": "1.0",
             "name": "Stellar Frontiers",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/grimdark.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/grim-darkness/master/",
+            "image": "https://raw.githubusercontent.com/Viregnar/wargame/main/grimdark.jpg",
+            "url": "https://raw.githubusercontent.com/Viregnar/grim-darkness/main/",
             "description": "In the far flung future, mankind has expanded into the stars, to be met with a war-ravaged battlefield. Alien races fight for supremacy, impossible gods send forth impossible legions, and no corner is safe. Realizing that the only way to survive was through bloodshed, the leaders of man created great war-divisions to help beat back the alien hordes. But, will mankind be the victor, or just another player in this galactic game? Take part in large all out battles to decide the fate of the galaxy itself.",
             "color": "#7761ab"
-        },
-        "space_wars": {
-            "id": "space_wars",
-            "category": "sci_fi",
-            "gameType": "battle",
-            "name": "Space Wars",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/spacewars3.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/space-wars/main/",
-            "description": "Sci-fi battles in a galaxy a significant distance away. A battle between the Dark Side and the Light Side to control the galaxy.",
-            "color": "#2f3c54"
-        },
-        "mystic_realms_skirmish": {
-            "id": "mystic_realms_skirmish",
-            "category": "fantasy",
-            "gameType": "skirmish",
-            "version": "1.0",
-            "name": "Mystic Realms Skirmishes",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/fantasy.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/fantasy-realms-skirmish/master/",
-            "description": "In a wartorn realm of dead gods and living magic, fantastic races fight for the few areas of prosperity and success. The dead walk, elf clashes sword with elf, and the twisted power of the corpses of the divine tear holes from one world to another. Will you defend what's yours in a magical world gone mad, or will you walk between realms, bringing war and ruin in your wake? Take part in small skirmish battles to control vital resources as part of the war of realms.",
-            "color": "#38733a"
-        },
-        "mystic_realms": {
-            "id": "mystic_realms",
-            "category": "fantasy",
-            "gameType": "battle",
-            "version": "1.0",
-            "name": "Mystic Realms",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/fantasy.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/fantasy-realms/main/",
-            "description": "In a wartorn realm of dead gods and living magic, fantastic races fight for the few areas of prosperity and success. The dead walk, elf clashes sword with elf, and the twisted power of the corpses of the divine tear holes from one world to another. Will you defend what's yours in a magical world gone mad, or will you walk between realms, bringing war and ruin in your wake? Take part in large all out battles to decide the fate of the realms.",
-            "color": "#38733a"
-        },
-        "ancients": {
-            "id": "ancients",
-            "gameType": "battle",
-            "category": "historical",
-            "version": "0.1",
-            "name": "Ancients (490BC to 1066 AD)",
-            "url": "https://raw.githubusercontent.com/wargame-engine/wbh/master/",
-            "description": "Ancients skirmish battles with some added twists and a focus on adding interesting rules and choices.",
-            "color": "#9f0807"
-        },
-        "world_war_two": {
-            "id": "world_war_two",
-            "category": "historical",
-            "gameType": "battle",
-            "name": "World War Two",
-            "version": "1.0",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/ww2.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/world-war-two/master/",
-            "description": "In a world locked in conflict, thunderous tanks roll and infantry charge. Discover numerous unique vehicles, aircraft and infantry weapons and use them to your advantage. With the power of the globe hanging in balance, will you fight to secure power for the axis attackers or defend home and country as the allied forces? Take part in large scale all out battles in World War Two to decide the fate of the globe.",
-            "color": "#6c541e"
-        },
-        "gunpowder": {
-            "id": "gunpowder",
-            "category": "historical",
-            "gameType": "battle",
-            "name": "Napoleonic Era (18th-19th Century)",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/gunpowder.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/gunpowder/master/",
-            "description": "18th and 19th Century battles with gunpowder focusing on skirmish-sized engagements.",
-            "color": "#2f3c54"
-        },
-        "weird_west": {
-            "id": "weird_west",
-            "gameType": "skirmish",
-            "category": "sci_fi",
-            "version": "0.1",
-            "name": "Weird West Skirmish",
-            "url": "https://raw.githubusercontent.com/wargame-engine/weird-west/main/",
-            "description": "Sci-fi skirmish battles set in the american civil war of another time.",
-            "color": "#0d407f"
-        },
-        "wasteland_racers": {
-            "id": "wasteland_racers",
-            "gameType": "racers",
-            "category": "sci_fi",
-            "version": "0.1",
-            "name": "Wasteland Racers",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/wasteland_racers.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/wasteland-racers/main/",
-            "description": "In a world of zombies and plagues, only the fast survive. Roving bands of car warriors face each other in this post-apocalyptic wasteland for the rights to the best salvage, the best food, or maybe simply for their own pleasure. One thing's for sure: You're not going to let the other guy take your stuff! Gear up, grab your ammo, and get ready to race!",
-            "color": "#ba7f00"
-        },
-        "third_age": {
-            "id": "third_age",
-            "version": "0.1",
-            "gameType": "battle",
-            "category": "fantasy",
-            "name": "The Third Age",
-            "image": "https://raw.githubusercontent.com/wargame-engine/root/master/wbf.jpg",
-            "url": "https://raw.githubusercontent.com/wargame-engine/wbf/master/",
-            "description": "Skirmish battles in a familiar fantasy world.",
-            "color": "#9aab89"
         }
     },
     "globalData": {
